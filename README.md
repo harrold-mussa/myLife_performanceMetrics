@@ -38,3 +38,4 @@ No graphing will be made to track the goals as each goal is done once and left.
 ### Memories Made
 This column will not be broken down. In fact, each day will be recorded if a great experience has been made that is considered to be memorable, and if not, the record will be null. 
 
+## Star Schema
