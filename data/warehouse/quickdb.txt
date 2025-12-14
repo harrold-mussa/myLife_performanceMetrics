@@ -1,0 +1,48 @@
+-- Star Schema made on quickdb
+
+Health as h
+----
+Health_metric PK ID
+Weight_loss NUMERIC 
+Worked_out BOOLEAN
+Took_vitamins BOOLEAN
+Ate_healthy BOOLEAN
+
+
+Finance as f
+----
+Finance_metric PK ID
+Updated_budget BOOLEAN
+Saved_money NUMERIC 
+Invested_money NUMERIC
+
+Happiness as hp
+----
+Happiness_metric PK ID
+Happy_mood BOOLEAN
+Productive BOOLEAN
+
+
+Goals_Achieved as ga
+----
+Goal_metric PK ID 
+Selfcare_improvements_made BOOLEAN
+Financial_improvements_made BOOLEAN
+Health_improvements_made BOOLEAN
+Read BOOLEAN
+Studied_OU BOOLEAN
+Studied_DE BOOLEAN
+Studied_french BOOLEAN
+
+
+Memories_Made as mm
+----
+Memories_metric PK ID
+Good_day BOOLEAN
+
+Metrics_Table as mt
+----
+Goal_metric ID FK >- Goals_Achieved.Goal_metric
+Memories_metric ID FK >- Memories_Made.Memories_metric
+Happiness_metric ID FK >- Happiness.Happiness_metric
+Health_metric ID FK >- Health.Health_metric
