@@ -39,3 +39,6 @@ No graphing will be made to track the goals as each goal is done once and left.
 This column will not be broken down. In fact, each day will be recorded if a great experience has been made that is considered to be memorable, and if not, the record will be null. 
 
 ## Star Schema
+Down below is the image of my star schema that details the metrics recorded for each dimension table, and main metrics are then recorded on the fact table to get a grasp on the overall life performance. 
+
+<img src="https://github.com/harrold-mussa/myLife_performanceMetrics/blob/main/data/warehouse/star-schema.png" align="center">
