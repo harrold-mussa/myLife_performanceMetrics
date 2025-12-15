@@ -25,9 +25,8 @@ CREATE TABLE Metrics_Table (
     FOREIGN KEY (Memories_metric_id) REFERENCES Memories_Made(Memories_metric_id),
     FOREIGN KEY (Happiness_metric_id) REFERENCES Happiness(Happiness_metric_id),
     FOREIGN KEY (Health_metric_id) REFERENCES Health(Health_metric_id),
-    FOREIGN K
+    FOREIGN KEY (Finance_metric_id) REFERENCES Finance(Finance_metric_id)
 );
-
 ---- Dimensions Tables
 
 CREATE TABLE Health (
