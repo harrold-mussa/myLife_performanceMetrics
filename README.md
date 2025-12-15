@@ -42,3 +42,5 @@ This column will not be broken down. In fact, each day will be recorded if a gre
 Down below is the image of my star schema that details the metrics recorded for each dimension table, and main metrics are then recorded on the fact table to get a grasp on the overall life performance. 
 
 <img src="https://github.com/harrold-mussa/myLife_performanceMetrics/blob/main/data/warehouse/star-schema.png" align="center">
+
+## How Does it Work?
