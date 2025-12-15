@@ -48,6 +48,13 @@ CREATE TABLE Memories_Made (
 
 -- FACT TABLE
 
+CREATE TABLE Date (
+    date_id DATE PRIMARY KEY,
+    day_of_week INTEGER,
+    month INTEGER,
+    year INTEGER
+);
+
 CREATE TABLE Metrics_Table (
     metrics_pk_id SERIAL PRIMARY KEY,
     Goal_metric_id INTEGER,
@@ -55,6 +62,7 @@ CREATE TABLE Metrics_Table (
     Happiness_metric_id INTEGER,
     Health_metric_id INTEGER,
     Finance_metric_id INTEGER,
+    date_id DATE,
 
     FOREIGN KEY (Goal_metric_id) REFERENCES Goals_Achieved(Goal_metric_id),
     FOREIGN KEY (Memories_metric_id) REFERENCES Memories_Made(Memories_metric_id),
