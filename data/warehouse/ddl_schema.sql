@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -- DDL for Star Schema based on myLife_performanceMetrics
 
 DROP TABLE IF EXISTS Metrics_Table CASCADE;
@@ -70,3 +71,6 @@ CREATE TABLE Metrics_Table (
     FOREIGN KEY (Health_metric_id) REFERENCES Health(Health_metric_id),
     FOREIGN KEY (Finance_metric_id) REFERENCES Finance(Finance_metric_id)
 );
+=======
+-- Database to create databases based on life metrics
+>>>>>>> fd93179 ([Update][1.5] : Creation of ddl_schema file . waiting for creation of docker postgresql image)

@@ -78,3 +78,7 @@ The final stage presents the insights gained from the stored data.
 
 1.  **Plotting Metrics:** The cleaned and processed DataFrame is passed to the **Matplotlib** library. This generates visualizations, specifically line charts for trends, bar charts for distribution for each major category, such as Weight Loss and Tracking, Money Saved, and Happiness Trends. It will make more sense seeing the data after the metrics are plotted. 
 2.  **Insight Generation:** The final charts reveal trends and relationships within the captured metrics, fulfilling the project's goal of using data engineering skills to track and improve personal performance.
+
+---
+## My Project Can Be Yours To Copy
+If you are looking for something fun, a nice hobby project, you can fork this repository and modify the following down below:
