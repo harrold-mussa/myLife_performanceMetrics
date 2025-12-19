@@ -69,4 +69,12 @@ CREATE TABLE Metrics_Table (
     FOREIGN KEY (Happiness_metric_id) REFERENCES Happiness(Happiness_metric_id),
     FOREIGN KEY (Health_metric_id) REFERENCES Health(Health_metric_id),
     FOREIGN KEY (Finance_metric_id) REFERENCES Finance(Finance_metric_id)
+    FOREIGN KEY (date_id) REFERENCES Date(date_id)
+);
+
+CREATE TABLE Date (
+    date_id DATE PRIMARY KEY,
+    day_of_week TEXT, 
+    month INTEGER,
+    year INTEGER
 );
